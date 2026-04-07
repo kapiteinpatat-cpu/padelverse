@@ -1,0 +1,438 @@
+
+{
+  "common": {
+    "save": "Wijzigingen opslaan",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "back": "Terug",
+    "loading": "Laden...",
+    "search": "Zoeken",
+    "filter": "Filter",
+    "apply": "Toepassen",
+    "view_details": "Details bekijken",
+    "share": "Delen",
+    "at": "om",
+    "on": "op",
+    "details": "Details",
+    "management": "Beheer",
+    "shortcuts": "Snelkoppelingen",
+    "slots_count": "{{current}} / {{max}} Plekken",
+    "price_per_hour": "€{{price}} / uur"
+  },
+  "auth": {
+    "login_title": "Welkom Terug",
+    "login_desc": "Voer je gegevens in om in te loggen",
+    "email_label": "Email",
+    "password_label": "Wachtwoord",
+    "forgot_password": "Wachtwoord vergeten?",
+    "sign_in": "Inloggen",
+    "continue_with": "Of ga verder met",
+    "no_account": "Nog geen account?",
+    "sign_up": "Aanmelden",
+    "quote_text": "Dit platform heeft de manier waarop onze club verbindt volledig veranderd.",
+    "quote_author": "Sofia Davis, Clubeigenaar"
+  },
+  "nav": {
+    "home": "Home",
+    "social": "Sociaal",
+    "play": "Spelen",
+    "matches": "Wedstrijden",
+    "media": "Media Hub",
+    "training": "Training",
+    "rankings": "Ranglijst",
+    "achievements": "Prestaties",
+    "rewards": "Beloningen",
+    "matchmaking": "Zoek Spel",
+    "market": "Markt",
+    "chat": "Chat",
+    "events": "Evenementen",
+    "control_center": "Beheer",
+    "profile": "Profiel",
+    "settings": "Instellingen",
+    "logout": "Uitloggen",
+    "account": "Account"
+  },
+  "home": {
+    "greeting": "Hoi, {{name}}! 👋",
+    "sub_greeting": "Klaar voor een wedstrijd bij PadelVerse Central?",
+    "rank": "Rang: #4 Club Elite",
+    "next_activity": {
+      "title": "Volgende Activiteit",
+      "subtitle": "Je hebt binnenkort een wedstrijd.",
+      "match": "Wedstrijd",
+      "duration": "{{min}} min"
+    },
+    "progress": {
+      "title": "Club Voortgang",
+      "subtitle": "Volg je prestaties en ranglijst.",
+      "wins": "Wedstrijden Gewonnen",
+      "win_rate": "{{rate}}% Winpercentage"
+    },
+    "actions": {
+      "book": "Baan Boeken",
+      "book_desc": "Vind een vrije baan en reserveer in 2 klikken.",
+      "join": "Doe Mee",
+      "join_desc": "Bekijk openbare wedstrijden die spelers zoeken.",
+      "upload": "Media Uploaden",
+      "upload_desc": "Deel je beste highlights met de club.",
+      "explore": "Ontdek Nu"
+    }
+  },
+  "matches": {
+    "title": "Komende Wedstrijden",
+    "subtitle": "Doe mee met een open wedstrijd of bekijk je schema.",
+    "create": "Wedstrijd Maken",
+    "join": "Nu meedoen",
+    "view_details": "Bekijk Match",
+    "empty": {
+      "title": "Geen wedstrijden gevonden",
+      "desc": "Er zijn momenteel geen wedstrijden gepland.",
+      "cta": "Maak je eerste wedstrijd"
+    },
+    "status": {
+      "active": "Actief",
+      "pending_confirmation": "Wacht op bevestiging",
+      "confirmed": "Afgerond",
+      "disputed": "Betwist",
+      "cancelled": "Geannuleerd"
+    },
+    "details": {
+      "scoreboard": "LIVE SCOREBORD",
+      "reset": "Punten Resetten",
+      "finalize": "Wedstrijd Beëindigen & Score Opslaan",
+      "finalize_desc": "Alle spelers moeten de score bevestigen",
+      "teams": "Teams",
+      "sets": "Sets",
+      "games": "Games",
+      "points": "Punten",
+      "verification": {
+        "title": "Bevestiging Vereist",
+        "desc": "Bevestig de score die is ingevoerd door de initiator.",
+        "confirm": "Bevestigen & Opslaan",
+        "disagree": "Niet akkoord"
+      },
+      "finalized": {
+        "title": "WEDSTRIJD AFGEROND",
+        "desc": "Geverifieerd resultaat opgenomen in de ranglijst"
+      },
+      "chat": "Wedstrijd Chat",
+      "roster": "Wedstrijd Roster",
+      "location": "Locatie"
+    }
+  },
+  "courts": {
+    "title": "Baan Beschikbaarheid",
+    "subtitle": "Real-time overzicht van boekbare velden.",
+    "updated_now": "Zojuist bijgewerkt",
+    "status": {
+      "available": "Beschikbaar",
+      "occupied": "Bezet",
+      "maintenance": "Onderhoud"
+    },
+    "filter": {
+      "all": "Alle Banen",
+      "indoor": "Binnen",
+      "outdoor": "Buiten"
+    },
+    "booking": {
+      "confirm_title": "Baanboeking Bevestigen",
+      "confirm_desc": "Elke wedstrijd vereist 4 spelers. Voeg vrienden of gasten toe om verder te gaan.",
+      "roster": "Wedstrijd Roster",
+      "slots_assigned": "Toegewezen",
+      "empty_slot": "Lege plek",
+      "add_player": "Speler Toevoegen",
+      "guest": "Gast",
+      "alert_full_roster": "Vul alle 4 de plekken in voordat je bevestigt.",
+      "cta": "Reservering Bevestigen",
+      "cta_assign": "Wijs 4 Spelers toe",
+      "cancel": "Annuleren"
+    },
+    "quick_matches": {
+      "title": "Snel Spelen",
+      "desc": "Baan gevonden maar spelers tekort? Maak direct een wedstrijd aan.",
+      "cta": "Openbare Wedstrijd Maken"
+    },
+    "coaching": {
+      "title": "Professionele Coaching",
+      "desc": "Verbeteren terwijl je speelt? Boek een trainer.",
+      "cta": "Vind een Trainer"
+    }
+  },
+  "training": {
+    "title": "Professionele Coaching",
+    "subtitle": "Boek een gespecialiseerde les bij gecertificeerde padeltrainers.",
+    "smart_booking": {
+      "title": "SLIM BOEKEN",
+      "subtitle": "Automatisch gekoppeld aan de beste trainer voor jouw niveau.",
+      "cta": "Vind Volgende Beschikbare Plek"
+    },
+    "filters": {
+      "level": "Jouw Niveau",
+      "format": "Lesvorm",
+      "duration": "Duur"
+    },
+    "directory_title": "Gecertificeerde Trainers",
+    "trainer_card": {
+      "price_per_hour": "€{{price}} / uur",
+      "next_availability": "Volgende Beschikbaarheid",
+      "no_slots": "Geen plekken komende 90 dagen",
+      "quick_book": "Direct Boeken",
+      "full_profile": "Volledig Profiel"
+    },
+    "details": {
+      "book_title": "Les Boeken",
+      "book_desc": "Selecteer een datum en tijd voor je les.",
+      "about": "Over {{name}}",
+      "pricing": "Tarieven",
+      "levels": "Spelerniveaus",
+      "confirm_booking": "Boeking Bevestigen",
+      "confirm_desc": "Je staat op het punt een les te boeken bij {{name}}."
+    }
+  },
+  "social": {
+    "title": "Club Feed",
+    "subtitle": "Maak contact met spelers en bekijk de nieuwste club-highlights.",
+    "create": {
+      "title": "Deel een Moment",
+      "placeholder": "Wat gebeurt er bij de club, {{name}}?",
+      "photo": "Foto Toevoegen",
+      "video": "Video Toevoegen",
+      "submit": "Post Delen",
+      "posting": "Bezig met plaatsen..."
+    }
+  },
+  "market": {
+    "title": "Marktplaats",
+    "subtitle": "Koop en verkoop tweedehands spullen binnen de club.",
+    "list_item": "Item Plaatsen",
+    "filters": {
+      "title": "Filters",
+      "search": "Zoektermen",
+      "category": "Categorie",
+      "price_range": "Prijsbereik",
+      "apply": "Filters toepassen"
+    },
+    "card": {
+      "seller": "Verkoper",
+      "message": "Bericht sturen"
+    },
+    "empty": {
+      "title": "Geen items gevonden",
+      "desc": "Pas je filters aan of plaats zelf een item!",
+      "cta": "Begin met verkopen"
+    }
+  },
+  "club": {
+    "admin_center": "Beheercentrum",
+    "system_health": "Systeemstatus: Optimaal",
+    "modules": {
+      "memberships": "Lidmaatschappen",
+      "pos": "POS (Bar & Gear)",
+      "invoices": "Facturen & Betalingen",
+      "reservations": "Resource Planning",
+      "profile": "Clubprofiel",
+      "analytics": "Club Analytics",
+      "staff": "Team & Rollen",
+      "trainers": "Trainers Hub",
+      "branding": "Branding & Thema",
+      "notifications": "Communicatie",
+      "policies": "Beleid"
+    }
+  },
+  "media": {
+    "title": "Media Hub",
+    "subtitle": "Bekijk highlights, volledige wedstrijden en clubbeelden.",
+    "tabs": {
+      "my_content": "Mijn Media",
+      "club_feed": "Club Feed",
+      "reel": "Highlights Reel"
+    },
+    "suggester": {
+      "title": "AI Highlight Suggester",
+      "desc": "Upload een lange opname en laat AI de winnaars vinden.",
+      "cta": "Vind Highlights",
+      "detecting": "Beelden analyseren..."
+    }
+  },
+  "profile": {
+    "edit": "Profiel Bewerken",
+    "share": "Delen",
+    "stats": {
+      "matches": "Wedstrijden",
+      "wins": "Gewonnen",
+      "friends": "Vrienden"
+    },
+    "tabs": {
+      "feed": "Feed",
+      "matches": "Wedstrijden",
+      "medals": "Medailles",
+      "friends": "Vrienden",
+      "media": "Media"
+    }
+  },
+  "settings": {
+    "title": "INSTELLINGEN",
+    "subtitle": "Personaliseer je ervaring en beheer je club aanwezigheid.",
+    "tabs": {
+      "profile": "Profiel",
+      "alerts": "Meldingen",
+      "privacy": "Privacy",
+      "account": "Account",
+      "language": "Taal"
+    },
+    "language": {
+      "title": "TAAL & REGIO",
+      "desc": "Selecteer je voorkeurstaal voor de interface.",
+      "label": "Weergavetaal"
+    }
+  },
+  "leaderboard": {
+    "title": "Club Ranglijst",
+    "subtitle": "Zie wie bovenaan de clubranglijst staat.",
+    "tabs": {
+      "players": "Spelers",
+      "duos": "Duo's"
+    },
+    "cards": {
+      "players_title": "Top Spelers",
+      "players_desc": "Individuele spelersranglijst.",
+      "duos_title": "Top Duo's",
+      "duos_desc": "Best presterende spelersparen."
+    },
+    "sort": {
+      "placeholder": "Sorteer op...",
+      "rank": "Rang",
+      "wins": "Gewonnen",
+      "matches": "Gespeeld",
+      "win_percentage": "Winpercentage"
+    },
+    "table": {
+      "rank": "Rang",
+      "player": "Speler",
+      "duo": "Duo",
+      "skill": "Niveau",
+      "handedness": "Handigheid",
+      "side": "Voorkeurskant",
+      "wins": "Wins",
+      "matches": "Matches",
+      "win_rate": "Win %"
+    },
+    "values": {
+      "right_handed": "Rechtshandig",
+      "left_handed": "Linkshandig",
+      "right": "Rechts",
+      "left": "Links",
+      "both": "Beide"
+    }
+  },
+  "achievements": {
+    "title": "Jouw Prestaties",
+    "subtitle": "Volg je voortgang en vier je mijlpalen op en buiten de baan.",
+    "status": {
+      "unlocked": "Ontgrendeld",
+      "in_progress": "In uitvoering"
+    },
+    "categories": {
+      "performance": "Prestaties",
+      "media": "Media & Sociaal",
+      "community": "Community & Club",
+      "consistency": "Consistentie & Plezier"
+    }
+  },
+  "rewards": {
+    "title": "Loyaliteit & Beloningen",
+    "subtitle": "Verdien punten en wissel ze in voor exclusieve beloningen.",
+    "user_points": "Jouw Punten",
+    "points_unit": "punten",
+    "redeem": "Inwisselen",
+    "modal": {
+      "title": "Beloning Inwisselen",
+      "desc": "Toon deze QR-code bij de club om je beloning te claimen.",
+      "confirm": "Bevestig Inwisseling",
+      "close": "Sluiten"
+    },
+    "toast": {
+      "success": "Beloning Ingewisseld!",
+      "success_desc": "Je hebt succesvol \"{{title}}\" ingewisseld."
+    }
+  },
+  "matchmaking": {
+    "title": "Slimme Matchmaking",
+    "subtitle": "Laat onze AI de perfecte tegenstanders vinden voor je volgende spel.",
+    "filters": {
+      "style": "Speelstijl",
+      "style_any": "Elke stijl",
+      "style_fun": "Plezier",
+      "style_competitive": "Competitief",
+      "style_training": "Training",
+      "time": "Tijdstip",
+      "time_anytime": "Altijd",
+      "time_morning": "Ochtend",
+      "time_afternoon": "Middag",
+      "time_evening": "Avond",
+      "skill_similar": "Vergelijkbaar met jou",
+      "skill_any": "Elk niveau",
+      "find_players": "Spelers Zoeken"
+    },
+    "results": {
+      "title": "Voorgestelde Spelers",
+      "match_fit": "Match Fit",
+      "prefers": "Voorkeur {{side}} kant",
+      "propose": "Stel Match Voor",
+      "empty_title": "Vind Je Volgende Match",
+      "empty_desc": "Gebruik de filters om beschikbare spelers te vinden.",
+      "toast_success": "Spelers Gevonden!",
+      "toast_success_desc": "We hebben een aantal geweldige matches voor je gevonden."
+    }
+  },
+  "events": {
+    "title": "Club Evenementen",
+    "subtitle": "Toernooien, sociale mixers en trainingssessies.",
+    "create_btn": "Evenement Maken",
+    "tabs": {
+      "upcoming": "Komend",
+      "past": "Galerij"
+    },
+    "filters": {
+      "all": "Alle types",
+      "Tournament": "Toernooien",
+      "Social": "Sociale Mixers",
+      "Training": "Training"
+    },
+    "card": {
+      "spots": "{{current}} / {{max}} Plekken",
+      "rsvp": "Nu RSVP",
+      "waitlist": "Wachtlijst Vol",
+      "view_gallery": "Bekijk galerij"
+    },
+    "empty": {
+      "title": "Geen komende evenementen",
+      "desc": "De club heeft momenteel geen evenementen gepland. Kom later terug of maak je eigen match!",
+      "cta": "Maak een match"
+    },
+    "details": {
+      "back": "Terug naar Evenementen",
+      "about": "Over dit evenement",
+      "organizer": "Organisator",
+      "participants": "Deelnemers ({{count}})",
+      "media": "Evenement Media",
+      "no_media": "Nog geen media van dit evenement.",
+      "not_found": "Evenement niet gevonden"
+    },
+    "create": {
+      "title": "Nieuw Evenement Maken",
+      "desc": "Vul de details in om een nieuw clubevenement op te zetten.",
+      "field_title": "Titel Evenement",
+      "field_desc": "Beschrijving (Optioneel)",
+      "field_type": "Type Evenement",
+      "field_loc": "Locatie",
+      "field_date": "Datum",
+      "field_time": "Tijd",
+      "field_max": "Max Deelnemers (Optioneel)",
+      "toast_success": "Evenement Gemaakt!",
+      "toast_success_desc": "Je evenement \"{{title}}\" is succesvol aangemaakt."
+    }
+  }
+}

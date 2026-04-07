@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "login-background",
+      "description": "Two padel players in action during a match.",
+      "imageUrl": "https://images.unsplash.com/photo-1767128890583-b3f8dc30bdbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYWRlbCUyMGFjdGlvbnxlbnwwfHx8fDE3Njk3OTQ3OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "padel action"
+    },
+    {
+      "id": "profile-banner",
+      "description": "A panoramic view of a padel court from behind the glass.",
+      "imageUrl": "https://images.unsplash.com/photo-1646649853703-7645147474ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYWRlbCUyMGNvdXJ0fGVufDB8fHx8MTc2OTc3NDI1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "padel court"
+    }
+  ]
+}

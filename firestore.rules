@@ -1,0 +1,26 @@
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    match /users/{userId} {
+      allow read: if isSignedIn();
+      allow write: if isOwner(userId);
+    }
+
+    match /clubs/{clubId}/matchRequests/{requestId} {
+      allow read: if isSignedIn();
+      // Only allow creation if the creator matches auth.uid
+      allow create: if isSignedIn() && request.resource.data.createdByUserId == request.auth.uid;
+      // Direct array updates are forbidden; must use Cloud Functions for joining logic
+      allow update: if isSignedIn() && request.resource.data.createdByUserId == request.auth.uid && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['playersJoined', 'openSlotsCount']);
+      allow delete: if isSignedIn() && resource.data.createdByUserId == request.auth.uid;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Represents a user's profile and settings, including optional gender identity and matchmaking preferences.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "genderIdentity": { 
+          "type": "string", 
+          "enum": ["male", "female", "nonbinary", "prefer_not_to_say"],
+          "description": "Optional gender identity for matchmaking rules."
+        },
+        "showGenderOnProfile": { "type": "boolean", "default": false },
+        "matchmakingGenderPreference": { 
+          "type": "string", 
+          "enum": ["same_gender_only", "mixed_only", "any"],
+          "default": "any"
+        },
+        "allowGenderBasedMatching": { "type": "boolean", "default": true },
+        "skillLevel": { "type": "string" },
+        "ranking": { "type": "number" },
+        "clubIdsJoined": { "type": "array", "items": { "type": "string" } },
+        "ratingHistory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "period": { "type": "string" },
+              "rating": { "type": "number" },
+              "label": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": ["id", "name", "email", "showGenderOnProfile", "allowGenderBasedMatching"]
+    },
+    "MatchmakingRequest": {
+      "title": "MatchmakingRequest",
+      "description": "A request to find players for a match with specific gender or level requirements.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "clubId": { "type": "string" },
+        "createdByUserId": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "matchCategory": { "type": "string", "enum": ["open", "men", "women", "mixed"] },
+        "levelMin": { "type": "string" },
+        "levelMax": { "type": "string" },
+        "timeWindow": { "type": "string" },
+        "playersJoined": { "type": "array", "items": { "type": "string" } },
+        "openSlotsCount": { "type": "number" },
+        "status": { "type": "string", "enum": ["open", "full", "cancelled", "expired"] }
+      },
+      "required": ["id", "clubId", "createdByUserId", "matchCategory", "playersJoined", "status"]
+    }
+  },
+  "auth": {
+    "providers": ["password", "anonymous"]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/backend/entities/UserProfile" },
+      "description": "Individual user profiles."
+    },
+    "/clubs/{clubId}/matchRequests/{requestId}": {
+      "schema": { "$ref": "#/backend/entities/MatchmakingRequest" },
+      "description": "Requests for matchmaking within a club."
+    }
+  }
+}

@@ -1,0 +1,438 @@
+
+{
+  "common": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "loading": "Loading...",
+    "search": "Search",
+    "filter": "Filter",
+    "apply": "Apply",
+    "view_details": "View Details",
+    "share": "Share",
+    "at": "at",
+    "on": "on",
+    "details": "Details",
+    "management": "Management",
+    "shortcuts": "Shortcuts",
+    "slots_count": "{{current}} / {{max}} Spots",
+    "price_per_hour": "€{{price}} / hour"
+  },
+  "auth": {
+    "login_title": "Welcome Back",
+    "login_desc": "Enter your credentials to access your account",
+    "email_label": "Email",
+    "password_label": "Password",
+    "forgot_password": "Forgot your password?",
+    "sign_in": "Sign In",
+    "continue_with": "Or continue with",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up",
+    "quote_text": "This platform has revolutionized how our club connects and plays.",
+    "quote_author": "Sofia Davis, Club Owner"
+  },
+  "nav": {
+    "home": "Home",
+    "social": "Social",
+    "play": "Play",
+    "matches": "Matches",
+    "media": "Media Hub",
+    "training": "Training",
+    "rankings": "Rankings",
+    "achievements": "Achievements",
+    "rewards": "Rewards",
+    "matchmaking": "Find Game",
+    "market": "Market",
+    "chat": "Chat",
+    "events": "Events",
+    "control_center": "Control Center",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "account": "Account"
+  },
+  "home": {
+    "greeting": "Hi, {{name}}! 👋",
+    "sub_greeting": "Ready for a match at PadelVerse Central?",
+    "rank": "Rank: #4 Club Elite",
+    "next_activity": {
+      "title": "Next Activity",
+      "subtitle": "You have a match starting soon.",
+      "match": "Match",
+      "duration": "{{min}} min"
+    },
+    "progress": {
+      "title": "Club Progress",
+      "subtitle": "Track your achievements and ranking.",
+      "wins": "Matches Won",
+      "win_rate": "{{rate}}% Win Rate"
+    },
+    "actions": {
+      "book": "Book a Court",
+      "book_desc": "Find an open field and reserve it in 2 taps.",
+      "join": "Join a Match",
+      "join_desc": "See public matches looking for players.",
+      "upload": "Upload Media",
+      "upload_desc": "Share your best highlights with the club.",
+      "explore": "Explore Now"
+    }
+  },
+  "matches": {
+    "title": "Upcoming Matches",
+    "subtitle": "Join an open match or view your schedule.",
+    "create": "Create Match",
+    "join": "Join now",
+    "view_details": "View Match",
+    "empty": {
+      "title": "No matches found",
+      "desc": "There are no matches scheduled right now.",
+      "cta": "Create your first match"
+    },
+    "status": {
+      "active": "Active",
+      "pending_confirmation": "Pending Confirmation",
+      "confirmed": "Finalized",
+      "disputed": "Disputed",
+      "cancelled": "Cancelled"
+    },
+    "details": {
+      "scoreboard": "LIVE SCOREBOARD",
+      "reset": "Reset Points",
+      "finalize": "End Match & Finalize Result",
+      "finalize_desc": "All players will be asked to confirm the score",
+      "teams": "Teams",
+      "sets": "Sets",
+      "games": "Games",
+      "points": "Points",
+      "verification": {
+        "title": "Verification Required",
+        "desc": "Confirm the result submitted by the match initiator.",
+        "confirm": "Confirm & Save",
+        "disagree": "Disagree"
+      },
+      "finalized": {
+        "title": "MATCH FINALIZED",
+        "desc": "Verified result recorded in rankings"
+      },
+      "chat": "Match Chat",
+      "roster": "Match Roster",
+      "location": "Match Location"
+    }
+  },
+  "courts": {
+    "title": "Court Availability",
+    "subtitle": "Real-time overview of bookable fields.",
+    "updated_now": "Updated just now",
+    "status": {
+      "available": "Available",
+      "occupied": "Occupied",
+      "maintenance": "Maintenance"
+    },
+    "filter": {
+      "all": "All Courts",
+      "indoor": "Indoor",
+      "outdoor": "Outdoor"
+    },
+    "booking": {
+      "confirm_title": "Confirm Court Booking",
+      "confirm_desc": "Every match requires 4 players. Add friends or guests to continue.",
+      "roster": "Match Roster",
+      "slots_assigned": "Assigned",
+      "empty_slot": "Empty Slot",
+      "add_player": "Add Player",
+      "guest": "Guest",
+      "alert_full_roster": "Please fill all 4 slots before confirming.",
+      "cta": "Confirm Reservation",
+      "cta_assign": "Assign 4 Players",
+      "cancel": "Cancel"
+    },
+    "quick_matches": {
+      "title": "Quick Matches",
+      "desc": "Found a court but missing players? Create a match instantly.",
+      "cta": "Create Public Match"
+    },
+    "coaching": {
+      "title": "Professional Coaching",
+      "desc": "Want to improve while you play? Book a trainer instead.",
+      "cta": "Find a Trainer"
+    }
+  },
+  "training": {
+    "title": "Professional Coaching",
+    "subtitle": "Book a specialized lesson with certified padel trainers.",
+    "smart_booking": {
+      "title": "SMART BOOKING",
+      "subtitle": "Auto-match with the best trainer for your level.",
+      "cta": "Find Next Available Slot"
+    },
+    "filters": {
+      "level": "Your Skill Level",
+      "format": "Lesson Format",
+      "duration": "Duration"
+    },
+    "directory_title": "Certified Trainers",
+    "trainer_card": {
+      "price_per_hour": "€{{price}} / hour",
+      "next_availability": "Next Availability",
+      "no_slots": "No slots next 90 days",
+      "quick_book": "Quick Book",
+      "full_profile": "Full Profile"
+    },
+    "details": {
+      "book_title": "Book a Lesson",
+      "book_desc": "Select a date and time to book your lesson.",
+      "about": "About {{name}}",
+      "pricing": "Pricing",
+      "levels": "Player Levels",
+      "confirm_booking": "Confirm Your Booking",
+      "confirm_desc": "You are about to book a lesson with {{name}}."
+    }
+  },
+  "social": {
+    "title": "Club Feed",
+    "subtitle": "Connect with players and see the latest club highlights.",
+    "create": {
+      "title": "Share a Moment",
+      "placeholder": "What's happening at the club, {{name}}?",
+      "photo": "Add Photo",
+      "video": "Add Video",
+      "submit": "Share Post",
+      "posting": "Posting..."
+    }
+  },
+  "market": {
+    "title": "Marketplace",
+    "subtitle": "Buy and sell second-hand gear within the club.",
+    "list_item": "List an Item",
+    "filters": {
+      "title": "Filters",
+      "search": "Search keywords",
+      "category": "Category",
+      "price_range": "Price range",
+      "apply": "Apply filters"
+    },
+    "card": {
+      "seller": "Seller",
+      "message": "Message seller"
+    },
+    "empty": {
+      "title": "No items found",
+      "desc": "Try adjusting your search or listing something new!",
+      "cta": "Start selling gear"
+    }
+  },
+  "club": {
+    "admin_center": "Admin Center",
+    "system_health": "System Health: Optimal",
+    "modules": {
+      "memberships": "Memberships",
+      "pos": "POS (Bar & Gear)",
+      "invoices": "Invoices & Payouts",
+      "reservations": "Resource Planning",
+      "profile": "Club Profile",
+      "analytics": "Club Analytics",
+      "staff": "Staff & Roles",
+      "trainers": "Trainers Hub",
+      "branding": "Branding & Theme",
+      "notifications": "Communications",
+      "policies": "Policies"
+    }
+  },
+  "media": {
+    "title": "Media Hub",
+    "subtitle": "Watch highlights, full matches, and club footage.",
+    "tabs": {
+      "my_content": "My Content",
+      "club_feed": "Club Feed",
+      "reel": "Highlights Reel"
+    },
+    "suggester": {
+      "title": "AI Highlight Suggester",
+      "desc": "Upload a long recording and let AI find the winners.",
+      "cta": "Find Highlights",
+      "detecting": "Analyzing footage..."
+    }
+  },
+  "profile": {
+    "edit": "Edit Profile",
+    "share": "Share",
+    "stats": {
+      "matches": "Matches",
+      "wins": "Wins",
+      "friends": "Friends"
+    },
+    "tabs": {
+      "feed": "Feed",
+      "matches": "Matches",
+      "medals": "Medals",
+      "friends": "Friends",
+      "media": "Media"
+    }
+  },
+  "settings": {
+    "title": "SETTINGS",
+    "subtitle": "Personalize your experience and manage your club presence.",
+    "tabs": {
+      "profile": "Profile",
+      "alerts": "Alerts",
+      "privacy": "Privacy",
+      "account": "Account",
+      "language": "Language"
+    },
+    "language": {
+      "title": "LANGUAGE & REGION",
+      "desc": "Select your preferred language for the interface.",
+      "label": "Display Language"
+    }
+  },
+  "leaderboard": {
+    "title": "Club Leaderboard",
+    "subtitle": "See who's on top of the club rankings.",
+    "tabs": {
+      "players": "Players",
+      "duos": "Duos"
+    },
+    "cards": {
+      "players_title": "Top Players",
+      "players_desc": "Individual player rankings.",
+      "duos_title": "Top Duos",
+      "duos_desc": "Best performing player pairs."
+    },
+    "sort": {
+      "placeholder": "Sort by...",
+      "rank": "Rank",
+      "wins": "Wins",
+      "matches": "Matches Played",
+      "win_percentage": "Win Percentage"
+    },
+    "table": {
+      "rank": "Rank",
+      "player": "Player",
+      "duo": "Duo",
+      "skill": "Skill Level",
+      "handedness": "Handedness",
+      "side": "Preferred Side",
+      "wins": "Wins",
+      "matches": "Matches",
+      "win_rate": "Win %"
+    },
+    "values": {
+      "right_handed": "Right-handed",
+      "left_handed": "Left-handed",
+      "right": "Right",
+      "left": "Left",
+      "both": "Both"
+    }
+  },
+  "achievements": {
+    "title": "Your Achievements",
+    "subtitle": "Track your progress and celebrate your milestones on and off the court.",
+    "status": {
+      "unlocked": "Unlocked",
+      "in_progress": "In Progress"
+    },
+    "categories": {
+      "performance": "Performance",
+      "media": "Media & Social",
+      "community": "Community & Club",
+      "consistency": "Consistency & Fun"
+    }
+  },
+  "rewards": {
+    "title": "Loyalty & Rewards",
+    "subtitle": "Earn points and redeem exclusive rewards for your activity.",
+    "user_points": "Your Points",
+    "points_unit": "points",
+    "redeem": "Redeem",
+    "modal": {
+      "title": "Redeem Reward",
+      "desc": "Show this QR code at the club to claim your reward.",
+      "confirm": "Confirm Redemption",
+      "close": "Close"
+    },
+    "toast": {
+      "success": "Reward Redeemed!",
+      "success_desc": "You have successfully redeemed \"{{title}}\"."
+    }
+  },
+  "matchmaking": {
+    "title": "Smart Matchmaking",
+    "subtitle": "Let our AI find the perfect opponents for your next game.",
+    "filters": {
+      "style": "Play Style",
+      "style_any": "Any Style",
+      "style_fun": "Fun",
+      "style_competitive": "Competitive",
+      "style_training": "Training",
+      "time": "Time of Day",
+      "time_anytime": "Any Time",
+      "time_morning": "Morning",
+      "time_afternoon": "Afternoon",
+      "time_evening": "Evening",
+      "skill_similar": "Similar to you",
+      "skill_any": "Any Skill Level",
+      "find_players": "Find Players"
+    },
+    "results": {
+      "title": "Suggested Players",
+      "match_fit": "Match Fit",
+      "prefers": "Prefers {{side}} side",
+      "propose": "Propose Match",
+      "empty_title": "Find Your Next Match",
+      "empty_desc": "Use the filters to find available players.",
+      "toast_success": "Players Found!",
+      "toast_success_desc": "We've found some great matches for you."
+    }
+  },
+  "events": {
+    "title": "Club Events",
+    "subtitle": "Tournaments, social mixers, and training sessions.",
+    "create_btn": "Create Event",
+    "tabs": {
+      "upcoming": "Upcoming",
+      "past": "Past Gallery"
+    },
+    "filters": {
+      "all": "All types",
+      "Tournament": "Tournaments",
+      "Social": "Social Mixers",
+      "Training": "Training"
+    },
+    "card": {
+      "spots": "{{current}} / {{max}} Spots",
+      "rsvp": "RSVP Now",
+      "waitlist": "Waiting List Full",
+      "view_gallery": "View gallery"
+    },
+    "empty": {
+      "title": "No upcoming events",
+      "desc": "The club hasn't scheduled any events recently. Check back later or create your own social match!",
+      "cta": "Create a match"
+    },
+    "details": {
+      "back": "Back to Events",
+      "about": "About this event",
+      "organizer": "Organizer",
+      "participants": "Participants ({{count}})",
+      "media": "Event Media",
+      "no_media": "No media from this event yet.",
+      "not_found": "Event not found"
+    },
+    "create": {
+      "title": "Create New Event",
+      "desc": "Fill in the details below to set up a new club event.",
+      "field_title": "Event Title",
+      "field_desc": "Description (Optional)",
+      "field_type": "Event Type",
+      "field_loc": "Location",
+      "field_date": "Date",
+      "field_time": "Time",
+      "field_max": "Max Participants (Optional)",
+      "toast_success": "Event Created!",
+      "toast_success_desc": "Your event \"{{title}}\" has been successfully created."
+    }
+  }
+}
